@@ -26,119 +26,52 @@
   width: 24rem;
 }
 
-.card-higher {
-  margin-top: -11rem;
-}
-
-.card-lower {
-  margin-top: -2rem;
-}
-
-.img-radius {
-  border-radius: 3px;
-  animation: fadeIn 1s;
-}
-
-.card-title {
-  margin-top: 15px;
-  font-size: 23px;
-  font-family: "Playfair Display", serif;
-}
-
-.card-title-s {
-  margin-top: 4px;
-  font-weight: bold;
-  font-size: 18px;
-  font-family: "Playfair Display", serif;
-}
-
-.card-title-xs {
-  margin-top: 4px;
-  font-weight: bold;
-  font-size: 14px;
-  font-family: "Playfair Display", serif;
-}
-
-.contact-title {
-  margin-top: 4px;
-  font-size: 12px;
-  font-family: "Playfair Display", serif;
-}
-
-.contact-icon {
-  width: 16rem;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.text-underline-hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-.text-underline-hover:hover {
-  text-decoration: none;
-  color: inherit;
-}
-
-.project-container {
+.box-container {
   display: flex;
   flex-direction: row;
-  padding: 5rem;
-  justify-content: space-between;
-  background-color: #00806d;
-}
-
-.detail-header {
-  font-size: 48px;
-  color: white;
-  margin-right: 24rem;
-  font-family: "Playfair Display", serif;
-}
-
-.detail-main-content {
-  font-size: 26px;
-  color: white;
-  font-family: "Playfair Display", serif;
-}
-
-.project-card-lg {
-  background-color: #ddd9d7;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 58rem;
-  padding: 5rem;
 }
 
-.detail-container {
-  display: flex;
-  flex-direction: row;
-  padding: 5rem 5rem 0 5rem;
-  justify-content: space-between;
+.box-two {
+  border: 5px solid black;
+  padding: 5px;
+  margin: 5px;
 }
 
-.project-card {
-  background-color: #ddd9d7;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32rem;
-  padding: 5rem;
+.box-three {
+  border: 10px solid gray;
+  padding: 10px;
+  margin: 10px;
 }
 
-.detail-img {
-  width: 14rem;
+.square-box {
+  width: 10rem;
+  height: 10rem;
+  background-color: gray;
+  position: relative;
 }
 
-.detail-content {
-  font-size: 24px;
-  font-family: "Playfair Display", serif;
+.circle {
+  width: 5rem;
+  height: 5rem;
+  background-color: yellow;
+  position: absolute;
+  border-radius: 50%;
+  top: -2rem;
 }
 
-a {
-  cursor: url("https://assets.moveshanghai.com/hovericon.png"), auto;
+.circle-sticky {
+  width: 5rem;
+  height: 5rem;
+  background-color: yellow;
+  position: sticky;
+  top: 10px;
+}
+
+.circle-fixed {
+  width: 5rem;
+  height: 5rem;
+  background-color: yellow;
+  position: fixed;
+  top: 10px;
 }
